@@ -1,0 +1,12 @@
+.DS_Store
+._*
+__MACOSX/
+__pycache__/
+*.py[cod]
+.cache/
+.venv/
+.idea/
+.vscode/
+
+results/generated/*
+!results/generated/README.md

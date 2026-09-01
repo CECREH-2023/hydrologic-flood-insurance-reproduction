@@ -1,0 +1,6 @@
+*.parquet binary
+*.png binary
+*.csv text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
