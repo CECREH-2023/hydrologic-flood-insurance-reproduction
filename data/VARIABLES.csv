@@ -1,0 +1,40 @@
+name,block,description,source_family,release_role
+record_id,identifier,"Sequential release-row key with no geographic meaning",release,link generated scores to released rows
+state_fips,group,"Two-digit state or District of Columbia FIPS code",Census,grouped cross-validation and bootstrap
+log1p_ihp_declaration_conditioned_incidence_proxy_rate,outcome,"Natural logarithm of one plus the IHP flood-damage registration rate",FEMA IHP and Census,modeled IHP outcome
+log1p_claims_rate,outcome,"Natural logarithm of one plus the NFIP claims rate",FEMA NFIP and Census,modeled claims outcome
+log1p_uptake_rate,outcome,"Natural logarithm of one plus the 2024 NFIP uptake rate",FEMA NFIP and Census,modeled uptake outcome
+ihp_declaration_conditioned_incidence_proxy_rate,outcome support,"Flood-damage registrations per 1,000 household-declaration exposures",FEMA IHP and Census,screen summary
+ihp_cumulative_administrative_burden_rate,outcome support,"Cumulative 2010–2024 IHP flood-damage registrations per 1,000 2024 households",FEMA IHP and Census,descriptive outcome context
+claims_rate,outcome support,"2010–2024 NFIP claims per 1,000 housing units",FEMA NFIP and Census,untransformed outcome summary
+uptake_rate,outcome support,"Active NFIP policy terms overlapping 2024 per 1,000 housing units",FEMA NFIP and Census,screen condition and summary
+acs_total_pop,screen weight,"2024 ACS total population estimate",ACS,selected population total
+acs_housing_units,screen weight,"2024 ACS housing-unit estimate",ACS,selected housing-unit total
+nfhl_sfha_share_land,M,"Share of tract land in a Special Flood Hazard Area",FEMA NFHL,mapped-zone predictor and screen condition
+nfhl_500yr_share_total,M,"Share of tract area in the 0.2%-annual-chance flood zone",FEMA NFHL,mapped-zone predictor
+nfhl_floodway_share_total,M,"Share of tract area in a regulatory floodway",FEMA NFHL,mapped-zone predictor
+nfhl_zone_a_share_total,M,"Share of tract area in Zone A",FEMA NFHL,mapped-zone predictor
+nfhl_zone_ae_share_total,M,"Share of tract area in Zone AE",FEMA NFHL,mapped-zone predictor
+nfhl_zone_ve_share_total,M,"Share of tract area in Zone VE",FEMA NFHL,mapped-zone predictor
+soil_hsg_a_share,H,"Mapped-soil area share in hydrologic soil group A",gSSURGO,hydrology predictor
+soil_hsg_b_share,H,"Mapped-soil area share in hydrologic soil group B",gSSURGO,hydrology predictor
+soil_hsg_c_share,H,"Mapped-soil area share in hydrologic soil group C",gSSURGO,hydrology predictor
+soil_hsg_d_share,H,"Mapped-soil area share in hydrologic soil group D",gSSURGO,hydrology predictor
+soil_hsg_dual_share,H,"Mapped-soil area share in a dual hydrologic soil group",gSSURGO,hydrology predictor
+soil_poorly_drained_share,H,"Mapped-soil area share classified as poorly drained",gSSURGO,hydrology predictor
+soil_floodfreq_frequent_share,H,"Mapped-soil area share with frequent flooding class",gSSURGO,hydrology predictor
+soil_ponding_present_share,H,"Mapped-soil area share with ponding present",gSSURGO,hydrology predictor
+soil_shallow_water_table_share,H,"Mapped-soil area share with annual minimum water-table depth of 100 cm or less",gSSURGO,hydrology predictor
+soil_wtdepannmin_area_mean_cm,H,"Area-weighted annual minimum water-table depth in centimeters",gSSURGO,hydrology predictor
+soil_aws0150wta_area_mean,H,"Area-weighted available water storage from 0 to 150 cm",gSSURGO,hydrology predictor
+soil_slopegradwta_area_mean_pct,H,"Area-weighted soil-map-unit slope attribute in percent",gSSURGO,hydrology predictor
+soil_rootznaws_area_mean,H,"Area-weighted root-zone available water storage",gSSURGO,hydrology predictor
+soil_droughty_area_mean,H,"Area-weighted droughty-soil indicator",gSSURGO,hydrology predictor
+prism_ppt_annual_mean_2010_2024_mm,H,"Mean annual precipitation over 2010–2024 in millimeters",PRISM,hydrology predictor
+prism_ppt_annual_max_2010_2024_mm,H,"Maximum annual precipitation over 2010–2024 in millimeters",PRISM,hydrology predictor
+nlcd_developed_share,E,"Share of tract land in developed Annual NLCD classes",Annual NLCD,built-exposure predictor
+nsi_structure_count,E,"2022 National Structure Inventory structure count",NSI,built-exposure predictor
+nsi_residential_structure_count,E,"2022 National Structure Inventory residential structure count",NSI,built-exposure predictor
+eda_housing_unit_density_per_km2_land,E,"Housing units per square kilometer of tract land",ACS and Census,built-exposure predictor
+log1p_eda_population_density_per_km2_land,E,"Natural logarithm of one plus population per square kilometer of tract land",ACS and Census,built-exposure predictor
+tract_land_km2,E,"Tract land area in square kilometers",Census,built-exposure predictor

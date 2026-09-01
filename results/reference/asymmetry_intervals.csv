@@ -1,0 +1,9 @@
+statistic,ci_lower,median,ci_upper,point_estimate,bootstrap_reps,bootstrap_mode
+s_H_ihp_flood,0.024971067131375962,0.834456039498011,0.9573614703705814,,500,state-cluster evaluation bootstrap (fixed OOF predictions)
+s_H_claims,0.292919122108522,0.49950660328735197,0.6480323064252252,,500,state-cluster evaluation bootstrap (fixed OOF predictions)
+s_H_uptake,0.2858243769997216,0.4514654667115886,0.5440064846861192,,500,state-cluster evaluation bootstrap (fixed OOF predictions)
+s_M_ihp_flood,-0.010849703733075946,0.060059488174788594,0.37604669930613754,,500,state-cluster evaluation bootstrap (fixed OOF predictions)
+s_M_uptake,0.41176205651202946,0.5042901000207037,0.6726510293557015,,500,state-cluster evaluation bootstrap (fixed OOF predictions)
+A_H_primary,-0.3102605358544327,0.3830274493791047,0.5857857790779185,0.4164709888274967,500,state-cluster evaluation bootstrap (fixed OOF predictions)
+A_H_claims,-0.13445006862694484,0.04943480513040005,0.1864653548744623,0.04219167362824039,500,state-cluster evaluation bootstrap (fixed OOF predictions)
+A_M,0.10374329171115004,0.44552678616736735,0.6413776523238913,0.4405567379511338,500,state-cluster evaluation bootstrap (fixed OOF predictions)
