@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this reproduction package, please cite it."
+title: "Hydrologic determinants of flood insurance: reproduction package"
+type: software
+authors:
+  - family-names: Andrews
+    given-names: Jesse R.
+  - family-names: Nejat
+    given-names: Ali
+repository-code: "https://github.com/CECREH-2023/hydrologic-flood-insurance-reproduction"
+date-released: 2026-08-31
+version: 1.0.0
+preferred-citation:
+  type: article
+  title: "Mapped flood zones track U.S. flood insurance uptake more closely than recorded flood burden"
+  authors:
+    - family-names: Andrews
+      given-names: Jesse R.
+    - family-names: Nejat
+      given-names: Ali
