@@ -53,6 +53,6 @@ Working notes, review records, logs, machine-specific paths, and draft manuscrip
 
 ## Authors and acknowledgment
 
-Jesse R. Andrews and Ali Nejat. This work was developed through the Center for Community Engagement, Climate, and Resilient Housing (CECREH).
+Jesse R. Andrews and Ali Nejat. This work was developed through the Center of Excellence in Capacity-building for REsilient Housing (CECREH).
 
 If you use this package, cite it using [CITATION.cff](CITATION.cff). Upstream datasets remain subject to their providers’ terms and attribution requirements.
